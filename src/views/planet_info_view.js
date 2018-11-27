@@ -20,9 +20,9 @@ PlanetInfoView.prototype.bindEvents = function () {
 // image: 'images/mercury.jpg'
 
 PlanetInfoView.prototype.displayContent = function (planet) {
-  this.element.innerHTML = '';
+  this.element.textContent = '';
 
-  this.element.background = planet['image'];
+  this.element.style.background = `url(./${planet['image']})`;
 
   const br = document.createElement('br');
   this.element.appendChild(br);

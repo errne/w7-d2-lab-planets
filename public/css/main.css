@@ -39,7 +39,7 @@ nav {
 section {
   display: inline-flex;
   margin: 0;
-  background: url('./images/solar_system.jpg');
+  background: url('../images/solar_system.jpg');
   background-size: cover;
   width: 89vw;
   padding: 0;
